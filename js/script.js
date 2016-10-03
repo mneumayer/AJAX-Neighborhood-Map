@@ -22,7 +22,7 @@ function loadData() {
 
      $greeting.text("So, you want to live at " + address + "?")
 
-    $body.append('<img class="bgimg" src = """+googleImgReq+""" >');
+    $body.append('<img class="bgimg" src = " '+ googleImgReq +' " >');
     console.log(googleImgReq);
 
 //1600 pennsylvania ave, washington dc https://maps.googleapis.com/maps/api/streetview?+size=600x400&location=1600 pennsylvania ave, washington dc&key=AIzaSyA3GKYWJ1z-CuATOVTtioYqntdRPgf1Q4M
